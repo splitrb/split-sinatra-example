@@ -5,7 +5,7 @@ class SplitExample < Sinatra::Base
   get "/" do
     erb :index
   end
-  
+
   get '/complete' do
     finished('link_text')
     erb :complete
