@@ -5,7 +5,7 @@ require 'split/dashboard'
 
 Bundler.require
 
-require 'app'
+require './app'
 
 # Split::Dashboard.use Rack::Auth::Basic do |username, password|
 #   username == 'admin' && password == 'password'
