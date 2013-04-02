@@ -2,6 +2,18 @@
 
 This example app shows how easily you can integrate the a/b testing framework [Split](https://github.com/andrew/split) into your Sinatra based projects.
 
+# Usage
+
+Run the Sinatra app through Rack:
+
+```
+rackup config.ru
+```
+
+The app should now run at http://localhost:9292/ and the Split Dashboard is mounted at http://localhost:9292/split/
+
+# Contribution
+
 ## Note on Patches/Pull Requests
 
  * Fork the project.
