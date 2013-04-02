@@ -1,4 +1,4 @@
-source :rubygems
+source "http://rubygems.org"
 
-gem 'sinatra'
-gem 'split'
+gem "sinatra"
+gem "split",  github: "andrew/split"
