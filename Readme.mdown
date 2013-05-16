@@ -4,7 +4,13 @@ This example app shows how easily you can integrate the a/b testing framework [S
 
 # Usage
 
-Run the Sinatra app through Rack:
+Spin up Redis with:
+
+```
+redis-server
+```
+
+Then, run the Sinatra app through Rack:
 
 ```
 rackup config.ru
