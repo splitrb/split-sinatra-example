@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/andrew/split.git
+  remote: git://github.com/splitrb/split.git
   revision: 0b8d8c79a4e449c18e4d691ec01715f1ed5a426f
   specs:
     split (0.5.0)

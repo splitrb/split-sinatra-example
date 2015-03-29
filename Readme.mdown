@@ -1,6 +1,6 @@
 # Example of using split in a sinatra app
 
-This example app shows how easily you can integrate the a/b testing framework [Split](https://github.com/andrew/split) into your Sinatra based projects.
+This example app shows how easily you can integrate the a/b testing framework [Split](https://github.com/splitrb/split) into your Sinatra based projects.
 
 # Usage
 
