@@ -4,7 +4,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    redis (3.2.2)
+    redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     simple-random (1.0.3)
