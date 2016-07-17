@@ -7,7 +7,7 @@ class SplitExample < Sinatra::Base
   end
 
   get '/complete' do
-    finished('link_text')
+    ab_finished('link_text')
     erb :complete
   end
 end
