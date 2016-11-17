@@ -4,7 +4,7 @@ GEM
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
-    redis (3.3.1)
+    redis (3.3.2)
     simple-random (1.0.3)
     sinatra (1.4.7)
       rack (~> 1.5)
