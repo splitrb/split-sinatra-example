@@ -6,7 +6,7 @@ GEM
       rack
     redis (3.3.3)
     simple-random (1.0.3)
-    sinatra (1.4.7)
+    sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
