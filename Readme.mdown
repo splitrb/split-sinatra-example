@@ -1,8 +1,8 @@
-# Example of using split in a sinatra app
+# Split Sinatra Example
 
-This example app shows how easily you can integrate the a/b testing framework [Split](https://github.com/splitrb/split) into your Sinatra based projects.
+This example app shows how easily you can integrate the A/B testing framework [Split](https://github.com/splitrb/split) into your Sinatra based projects.
 
-# Usage
+## Usage
 
 Spin up Redis with:
 
@@ -18,9 +18,11 @@ rackup config.ru
 
 The app should now run on [http://localhost:9292/](http://localhost:9292/) and the Split Dashboard is mounted at [http://localhost:9292/split/](http://localhost:9292/split/).
 
-# Contribution
+## Contribute
 
-## Note on Patches/Pull Requests
+Please conform to the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+### Note on Patches/Pull Requests
 
  * Fork the project.
  * Make your feature addition or bug fix.
@@ -30,6 +32,6 @@ The app should now run on [http://localhost:9292/](http://localhost:9292/) and t
    (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
  * Send me a pull request. Bonus points for topic branches.
 
-## Copyright
+## License
 
-Copyright (c) 2013 Andrew Nesbitt. See LICENSE for details.
+Copyright (c) 2013-2018 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
