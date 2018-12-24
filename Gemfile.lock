@@ -3,20 +3,20 @@ GEM
   specs:
     mustermann (1.0.3)
     rack (2.0.6)
-    rack-protection (2.0.4)
+    rack-protection (2.0.5)
       rack
     redis (4.0.3)
     simple-random (1.0.3)
-    sinatra (2.0.4)
+    sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.4)
+      rack-protection (= 2.0.5)
       tilt (~> 2.0)
     split (3.3.0)
       redis (>= 2.1)
       simple-random (>= 0.9.3)
       sinatra (>= 1.2.6)
-    tilt (2.0.8)
+    tilt (2.0.9)
 
 PLATFORMS
   ruby
