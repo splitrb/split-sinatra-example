@@ -2,7 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     mustermann (1.0.3)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.7)
       rack
     redis (4.1.3)
