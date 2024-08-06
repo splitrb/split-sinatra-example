@@ -1,28 +1,31 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    connection_pool (2.3.0)
-    mustermann (3.0.0)
+    connection_pool (2.4.1)
+    matrix (0.4.2)
+    mustermann (3.0.1)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.6.4)
+    rack (2.2.9)
     rack-protection (3.0.6)
       rack
-    redis (5.0.5)
-      redis-client (>= 0.9.0)
-    redis-client (0.11.2)
+    redis (5.2.0)
+      redis-client (>= 0.22.0)
+    redis-client (0.22.2)
       connection_pool
     ruby2_keywords (0.0.5)
-    rubystats (0.3.0)
+    rubystats (0.4.1)
+      matrix
     sinatra (3.0.6)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
       rack-protection (= 3.0.6)
       tilt (~> 2.0)
-    split (4.0.2)
+    split (4.0.4)
+      matrix
       redis (>= 4.2)
       rubystats (>= 0.3.0)
       sinatra (>= 1.2.6)
-    tilt (2.1.0)
+    tilt (2.4.0)
 
 PLATFORMS
   ruby
